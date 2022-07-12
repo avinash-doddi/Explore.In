@@ -28,22 +28,27 @@
             }
             
             li:hover {
-                box-shadow: 0 2px 5px;
-                background: linear-gradient(10deg, #7CB9E8 45%, white 90%);
+                box-shadow: deepskyblue 0 2px 5px;
                 transform: translate(10);
                 padding-left: 10px;
                 transition: 0.4s;
                 transition-delay: 0.1s;
+                border-radius: 4px;
             }
 
             .txt
             {
                 width: 100%;
+                display: inline-flex;
+                box-sizing: border-box;
                 color: black;
                 animation: textanimate 2s infinite linear;
                 font-size: 5rem;
-                padding-top : 15%;
-                padding-left: 60%;
+                padding-top : 10%;
+                /* padding-left: 40%; */
+                left: 40%;
+                position: relative;
+                overflow: hidden;
             }
 
             @keyframes textanimate {
@@ -57,28 +62,36 @@
 
             .btngrp
             {
-                width: 30%;
-                padding-top: 10%;
-                float: right;
-                padding-right: 20%;
+                max-width: 100%;
+                max-height: 100%;
+                width: 100%;
+                box-sizing: border-box;
+                padding-left: 60%;
+                padding-top: 5%;
+                /* float: right; */
+                padding-right: 25%;
                 padding-bottom: 15%;
                 display: flex;
+                overflow: hidden;
             }
             .btn
             {
                 border-color: rgba(0, 0, 0, 0.3);
                 color:black;
-                margin: 10%;
-                padding-left: 25%;
-                padding-top: 5%;
-                padding-bottom: 5%;
+                box-sizing: content-box;
+                margin: 5%;
+                padding-left: 30%;
+                padding-top: 1%;
+                padding-bottom: 1%;
                 padding-right: 50%;
+                overflow: hidden;
+                text-align:justify;
             }
         </style>
     </head>
 
     <body>
-        <nav class="navbar bg-black bg-opacity-10">
+        <nav class="navbar bg-white bg-opacity-10">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#" style="pointer-events:none;">Logo Here</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
@@ -97,12 +110,18 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Link</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Link</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-        <div class = "maintext">
+        <div class = "container-fluid">
             <h1 class = "txt"> let's Explore !! </h1>
         </div>
         <div class = "btngrp">
