@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Locations</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        background-image: linear-gradient(rgba(0, 0, 0, 1),transparent),url(image6.jpg);
+        background-size: cover;
+    }
+    .cardset
+    {
+        margin-top: 5%;
+    }
+    .h1 { 
+        font-family: 'Lobster', cursive; 
+        color: white;
+        text-align: center;
+        justify-content: center;
+    }
+    .card{
+        box-shadow: 0px 0px 10px white;
+        transition: ease 0.2s;
+    }
+    .card:hover{
+        box-shadow: 0px 0px 10px rgb(117, 232, 255);
+        transform: scale(1.04);
+    }
+    .textshadow
+    {
+        text-shadow: 0px 0px 10px white;
+        transition: ease 0.2s;
+    }
+    .textshadow:hover{
+        text-shadow: 0px 0px 10px rgb(117, 232, 255);
+        transform: scale(1.04);
+    }
+    footer p{
+        text-align: center;
+        color:white;
+        font-family: cursive;
+    }
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="pointer-events: none;">
+                <img src="explore 2 white.png" alt="" width="100" height="40">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active textshadow" aria-current="page" href="value.php">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textshadow" href="login.php">Login or signup</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link textshadow" href="frontpage.php">Locations</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle textshadow" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Tour Packages 
+                </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">one day package</a></li>
+                            <li><a class="dropdown-item" href="#">less than a week package </a></li>
+                            <li><a class="dropdown-item" href="#">more thana a week package   </a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row cardset">
+            <p class="h1 textshadow">Places to visit</p>
+        </div>
+        <div class="row cardset">
+            <div class="col-sm-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="mat.jpg" height="200px" class="card-img-top" alt="rishikonda beach">
+                    <div class="card-body">
+                    <h5 class="card-title">Mudasarlova</h5>
+                    <p class="card-text">Mudasarlova located in Visakhapatnam on the coast of Bay of Bengal...</p>
+                    <a href="https://en.wikipedia.org/wiki/Mudasarlova_Park" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="mat2.jpg" height="200px" class="card-img-top" alt="yarada beach">
+                    <div class="card-body">
+                    <h5 class="card-title">Ananthagiri</h5>
+                    <p class="card-text">Ananthagiri is situated on the east coast of Bay of Bengal in...</p>
+                    <a href="https://en.wikipedia.org/wiki/Ananthagiri_Hills,_Vikarabad_district" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="waterfall.jpg" height="200px"class="card-img-top" alt="rama krishna beach">
+                    <div class="card-body">
+                    <h5 class="card-title">Katiki Waterfalls</h5>
+                    <p class="card-text">Katiki Waterfalls is situated on the east coast of Visakhapatnam...</p>
+                    <a href="https://en.wikipedia.org/wiki/RK_Beachs" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row cardset">
+            <div class="col-sm-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="gangavaram.jpg" height="200px" class="card-img-top" alt="gangavaram beach">
+                    <div class="card-body">
+                    <h5 class="card-title">Gangavaram</h5>
+                    <p class="card-text">Gangavaram is situated on the east coast of Bay of Bengal...</p>
+                    <a href="https://vizagdekho.com/gangavaram-beach-vizag/" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="bheemili.jpg" height="200px"class="card-img-top" alt="bheemili beach">
+                    <div class="card-body">
+                    <h5 class="card-title">Matsyagundam</h5>
+                    <p class="card-text">Matsyagundam is located at the origin of the Gosthani River, at a distance...</p>
+                    <a href="https://en.wikipedia.org/wiki/Bheemili_Beach" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 16rem;">
+                    <img src="appikonda.jpg" height="200px" class="card-img-top" alt="appikonda beach">
+                    <div class="card-body">
+                    <h5 class="card-title">Dumbriguda Chaparai</h5>
+                    <p class="card-text">Dumbriguda Chaparai is a fisherman's village, it is having a very old Shiva temple...</p>
+                    <a href="https://www.tripadvisor.in/Attraction_Review-g297588-d12078676-Reviews-Appikonda_Beach-Visakhapatnam_Visakhapatnam_District_Andhra_Pradesh.html" class="btn btn-primary">Know More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4">col-sm-8</div>
+            <div class="col-sm-4">col-sm-4</div>
+            <div class="col-sm-4">col-sm-4</div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+<footer><p> Copyright Explore.in </p></footer>
+</html>
