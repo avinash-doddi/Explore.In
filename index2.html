@@ -1,12 +1,4 @@
-<?php 
-session_start();
 
-	include("connection.php");
-	include("functions.php");
-
-	$user_data = check_login($con);
-
-?>
 <!doctype html>
 <html lang="en">
 
@@ -147,8 +139,8 @@ session_start();
             <h1 class = "txt"> let's Explore !! </h1>
         </div>
         <div class = "btngrp">
-            <button type="button" class="btn btn-outline-info" onClick="window.location.href='value.php';"><span style="padding: 60%" class = "value1">LogOut</span></button>
-            <button type="button" class="btn btn-outline-info"><span style="padding: 60%" onClick="window.location.href='beachesafterlogin.php';"><span style="padding: 60%" class = "value1">Explore</span></button>
+            <button type="button" class="btn btn-outline-info" onClick="window.location.href='index.html';"><span style="padding: 60%" class = "value1">LogOut</span></button>
+            <button type="button" class="btn btn-outline-info"><span style="padding: 60%" onClick="window.location.href='beachesafterlogin.html';"><span style="padding: 60%" class = "value1">Explore</span></button>
         </div>
 
 
